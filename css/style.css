@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 20vh;
+    color: rgb(49, 42, 42);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    flex-direction: column;
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 239, 214);
+    margin: 10px;
+}
+
+figcaption{
+    margin: 5px auto;
+    text-align: center;
+    color: rgb(53, 30, 24);
+}
+
+#tribute-info{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(49, 49, 49);
+}
+
+h2{
+    padding: 10px;
+}
+
+blockquote p{
+    text-align: justify;
+}
+
+#more{
+    color: rgb(63, 52, 31);
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgb(184, 184, 184);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 94, 36);
+    transition: all 0.3s ease-out;
+}
+
+a:hover{
+    opacity: 0.8;
+}
